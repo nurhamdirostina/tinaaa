@@ -1,0 +1,12 @@
+body {
+  background: #C3B091;
+  font-family: sans-serif;
+}
+ 
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 8px;
+  width: 20%;
+}
+ 

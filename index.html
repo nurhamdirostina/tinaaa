@@ -1,0 +1,42 @@
+<html>
+<head>
+<br><br><br>
+<title>login</title>
+</br></br></br>
+<link rel="stylesheet" type="text/css" href="style3.css">	
+<center>
+	<h1>Login</h1>
+</center>
+<script type="text/javascript">
+function login()
+{
+var textcontrol = document.getElementById('user');
+var nama = textcontrol.value;
+var textcontrol = document.getElementById('password');
+var pass = textcontrol.value;
+if (nama =="nurhamdi rostina" && pass=="032004") {
+alert ('login sukses');
+}
+else
+{
+alert ('login gagal');
+}
+}
+
+</script>
+</head>
+<body>
+<center>
+<p>username</p>
+<form style color="yellow">
+<input type = "text" name= "user" id="user">
+<p>password</p>
+<input type = "text" name= "password" id="password">
+</br>
+<br>
+<input type = "button" name = "btntest" value="login" onclick="login()">
+</br>
+</center>
+</form>
+</body>
+</html>
